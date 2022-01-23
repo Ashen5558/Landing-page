@@ -270,3 +270,48 @@
 .footer__navigation span:hover{
     color: #17998A;
 }
+
+@media (max-width: 767.98px) {
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1.left{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .section1a{
+        flex-direction: column;
+        height: auto;
+    }
+    .section1a.left{
+        padding-left: 20px;
+        padding-top: 20px ;
+    }
+    .section2{
+        flex-direction: column;
+        height: auto;
+    }
+    .clients{
+        flex-direction: column;
+        height: auto;
+    }
+    .clients .client{
+        padding-bottom: 50px;
+    }
+
+    .examples {
+        flex-wrap: wrap;
+
+    }
+
+    .examples div {
+        flex: 0.5;
+        flex-basis: 50%;
+    }
+    .main{
+        margin-left: 20px;
+    }
+}
